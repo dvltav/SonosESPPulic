@@ -1,4 +1,4 @@
-# Sonos ESP8266 Controller
+# Sonos ESP8266 Controller 
 
 A rotary encoder-based Sonos speaker controller with OLED display for ESP8266.
 
@@ -18,6 +18,7 @@ A rotary encoder-based Sonos speaker controller with OLED display for ESP8266.
 ### Components
 - **OLED Display**: SH1106 128x64 I2C
 - **Rotary Encoder**: KY-040 or similar with push button
+- https://www.amazon.com/dp/B0DMYQHM9J
 
 ### Pin Connections
 
