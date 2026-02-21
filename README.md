@@ -10,6 +10,8 @@ A rotary encoder-based Sonos speaker controller with OLED display for ESP8266.
 - Rotary encoder interface for volume control
 - Menu system (accessible via button press)
 
+- ![Project Screenshot](IMG_7015.jpeg)
+
 ## Hardware
 
 ### Board
