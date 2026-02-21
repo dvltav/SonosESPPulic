@@ -9,6 +9,8 @@ A rotary encoder-based Sonos speaker controller with OLED display for ESP8266.
 - Allows independent volume offset adjustment for dining room speaker
 - Rotary encoder interface for volume control
 - Menu system (accessible via button press)
+- I wanted to achieve minimal latency, I'm controlling the speaker directly via HTTP. More scalable approach would be
+-    to use Home Assistant and connect via MQTT
 
 - ![Project Screenshot](IMG_7015.jpeg)
 
