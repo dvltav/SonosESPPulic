@@ -12,7 +12,11 @@ A rotary encoder-based Sonos speaker controller with OLED display for ESP8266.
 - I wanted to achieve minimal latency, I'm controlling the speaker directly via HTTP. More scalable approach would be
 -    to use Home Assistant and connect via MQTT
 
-- ![Project Screenshot](IMG_7015.jpeg)
+
+<p align="center">
+  <img src="IMG_7015.jpeg" width="600">
+  <img src="IMG_7018.jpeg" width="600">
+</p>
 
 ## Hardware
 
