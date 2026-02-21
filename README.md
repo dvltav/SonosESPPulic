@@ -18,6 +18,7 @@ A rotary encoder-based Sonos speaker controller with OLED display for ESP8266.
 
 ### Board
 - **ESP8266** (NodeMCU or similar)
+- https://www.amazon.com/HiLetgo-Internet-Development-Wireless-Micropython/dp/B010O1G1ES/
 
 ### Components
 - **OLED Display**: SH1106 128x64 I2C
