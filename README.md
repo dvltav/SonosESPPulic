@@ -38,6 +38,18 @@ A rotary encoder-based Sonos speaker controller with OLED display for ESP8266.
 | Encoder DT | D4 (GPIO2) | Encoder B |
 | Encoder SW | D7 (GPIO13) | Push Button |
 
+### How the encoder works
+This was the hardest part as the encoder came with no instructions.
+
+Signal A changing tells the program:
+“The knob moved one step.”
+	•	When that happens, the program immediately looks at Signal B.
+	•	The value of B at that moment determines direction:
+	•	If B is HIGH, that means one direction.
+	•	If B is LOW, that means the other direction.
+
+So A is basically your “movement detector”, and B is your “direction indicator.”
+
 ## Development Environment Setup
 
 ### PlatformIO (Recommended)
